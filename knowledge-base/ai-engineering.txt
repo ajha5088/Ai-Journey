@@ -1,0 +1,19 @@
+RAG stands for Retrieval Augmented Generation. It is a technique where relevant documents are retrieved from a knowledge base and injected into the LLM prompt as context. This grounds the model's answers in your specific data rather than its training data.
+
+Embeddings are numerical representations of text. They convert words, sentences or documents into vectors — lists of numbers that capture semantic meaning. Similar meanings produce similar vectors.
+
+Cosine similarity measures how close two vectors are in meaning. It returns a value between -1 and 1. Values close to 1 mean very similar meaning. Values close to 0 mean unrelated.
+
+Vector databases are optimised to store and search embeddings. They answer the question: which stored vectors are closest to this query vector? Examples include Chroma, Pinecone, and Weaviate.
+
+A system prompt is an instruction given to an LLM before the conversation starts. It controls the model's behavior, tone, persona, and constraints throughout the entire conversation.
+
+Token is the basic unit of text that LLMs process. One token is roughly 4 characters or 0.75 words. LLMs have a context window limit — the maximum tokens they can process in one request.
+
+Fine tuning is the process of training a pre-existing model on new data to specialise its behavior. It is expensive and usually unnecessary — RAG solves most problems fine tuning is mistakenly used for.
+
+LangChain is a framework for building LLM applications. It provides abstractions for chains, agents, memory, and tool use. It has both Python and JavaScript versions.
+
+An AI agent is a system where an LLM autonomously decides which tools to call and in what order to complete a goal. Unlike a simple chat, agents can take multi-step actions.
+
+Evals are automated tests for LLM outputs. They measure whether your AI is producing correct, consistent, and safe responses. Writing good evals is one of the most important skills in AI engineering.

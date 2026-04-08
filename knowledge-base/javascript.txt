@@ -1,0 +1,15 @@
+JavaScript is a dynamically typed programming language primarily used for web development. It runs in browsers and on servers via Node.js.
+
+Node.js is a JavaScript runtime built on Chrome's V8 engine. It allows JavaScript to run on the server side. It uses an event-driven, non-blocking I/O model making it efficient for API servers.
+
+TypeScript is a strongly typed superset of JavaScript. It adds static type checking which catches errors at compile time. It compiles down to plain JavaScript.
+
+React is a JavaScript library for building user interfaces. It uses a component-based architecture and a virtual DOM for efficient updates.
+
+The Vercel AI SDK is the best TypeScript-native framework for building AI applications. It provides hooks for streaming, chat interfaces, and tool calling. It works seamlessly with Next.js.
+
+npm is the Node.js package manager. It manages project dependencies through package.json. The node_modules folder contains all installed packages and should never be committed to git.
+
+Async await is JavaScript syntax for handling asynchronous operations. It makes async code read like synchronous code. Every LLM API call is asynchronous and requires await.
+
+REST APIs use HTTP methods — GET, POST, PUT, DELETE — to perform operations on resources. JSON is the standard data format. LLM APIs are REST APIs under the hood.
