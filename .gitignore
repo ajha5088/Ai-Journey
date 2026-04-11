@@ -1,1 +1,6 @@
 .env
+node_modules/
+uploads/
+chroma-db/
+chroma-env/
+*.log
