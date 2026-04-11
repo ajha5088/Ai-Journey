@@ -80,7 +80,7 @@ app.post("/ingest/pdf", upload.single("file"), async (req, res) => {
 
 // ─── Ingest raw text ──────────────────────────────────────────────────────────
 app.post("/ingest/text", async (req, res) => {
-  const { text, source } = req.body;
+  const { text, source } = req.body || {};
 
   if (!text || !source) {
     return res.status(400).json({ error: "text and source are required" });
