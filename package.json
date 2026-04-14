@@ -13,7 +13,8 @@
     "embeddings": "node src/embeddings.js",
     "rag": "node src/rag.js",
     "server": "node src/server.js",
-    "inspect-db": "node src/inspect-db.js"
+    "inspect-db": "node src/inspect-db.js",
+    "agent": "node src/agent.js"
   },
   "author": "",
   "license": "ISC",
